@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="سایت منوی غذای سلف دانشگاه شریعتی">
+       <!--General SEO tags-->
+       <meta name="description" content="free web tutorials">
+       <meta name="keywords"content="html,css,javascript">
+       <meta name="authors"content="MHI">
+       <meta name="robots"content="index,nofollow">
+   
+    <title>غذای سلف دانشگاه شریعتی</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazir:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">خانه</a></li>
+            <li><a href="login.html">ورود</a></li>
+            <li><a href="register.html">ثبت‌نام</a></li>
+        </ul>
+    </nav>
+
+    <!-- صفحه خانه: منوی غذا -->
+    <section id="menuPage" class="page active">
+        <h2>منوی غذا</h2>
+        <div id="menu"></div>
+    </section>
+
+    <!-- صفحه ثبت‌نام -->
+    <section id="registerPage" class="page">
+        <h2>ثبت‌نام</h2>
+        <form id="registerForm">
+            <input type="text" id="newUsername" placeholder="نام کاربری" required>
+            <input type="password" id="newPassword" placeholder="کلمه عبور" required>
+            <button type="submit">ثبت‌نام</button>
+        </form>
+        <p>قبلاً حساب دارید؟ <a href="login.html">ورود</a></p>
+    </section>
+
+    <!-- صفحه ورود -->
+    <section id="loginPage" class="page">
+        <h2>ورود به حساب</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="نام کاربری" required>
+            <input type="password" id="password" placeholder="کلمه عبور" required>
+            <button type="submit">ورود</button>
+        </form>
+        <p>حساب ندارید؟ <a href="register.html">ثبت‌نام کنید</a></p>
+    </section>
+
+    <!-- پاورقی -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
